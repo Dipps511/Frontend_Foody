@@ -1,0 +1,8 @@
+.brand {
+  text-decoration: none;
+}
+
+.brand a {
+  text-decoration: none;
+  font-family: var(--Oregano);
+}

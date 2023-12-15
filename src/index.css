@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #03045e;
+  --bg-color: #f4f4f4;
+  --nav-height: 4rem;
+  --ABeeZee: "ABeeZee", sans-serif;
+  --ComicNeue: "Comic Neue", cursive;
+  --Oregano: "Oregano", cursive;
+  --bg-section: white;
+}
+
+body {
+  font-family: "ABeeZee", sans-serif;
+  background-color: var(--bg-color);
+}
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.white-color {
+  color: white;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-family: var(--ComicNeue);
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.input-group {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.image-wrapper-m {
+  width: 20rem;
+  height: 20rem;
+  overflow: hidden;
+  margin: 1rem;
+}
+
+.image-m {
+  width: 20rem;
+  height: 20rem;
+}
